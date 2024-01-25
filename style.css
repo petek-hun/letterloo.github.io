@@ -1,0 +1,158 @@
+style.css
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap');
+
+    h1{
+      font-family: "trebuchet ms", tahoma, "sans serif";
+      color: indigo;
+      font-size:2.3rem; 
+      line-height:2.5rem;
+      letter-spacing: 3px; 
+      margin-left: 5%; 
+      margin-right: 5%; 
+      text-align: center;
+      text-shadow: 0.08rem 0.08rem 0.15rem RebeccaPurple, -0.08rem -0.08rem 0.15rem MediumPurple;
+      font-style: bold;
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
+    }
+
+    /* FIELDSET */
+    fieldset{
+      background-color: hsl(259, 50%, 74%, 40%);
+      border: 3px solid;
+      border-color: #6d0792 #bd24f5 #bd24f5 #6d0792;
+      max-width:100%;
+      padding-left:3%;
+      padding-right:3%;
+    }
+
+    textarea{
+      resize: vertical; 
+      width: 99%;
+      border-radius: 5px;
+    }
+    label{
+      -webkit-user-select: none; /* Safari */
+      -ms-user-select: none; /* IE 10 and IE 11 */
+      user-select: none; /* Standard syntax */
+    }
+    legend{
+      font-family: 'Alegreya', serif;
+      font-style:italic;
+      color: indigo;
+    }
+
+    em{
+      font-style: italic;
+      font-family: 'Alegreya', serif;
+    }
+
+    b{
+      font-style: bold normal;
+      font-family: 'Alegreya', serif;
+    }
+
+    .sorular{
+      line-height: 1.2rem;
+      font-family: 'Alegreya', serif;
+    }
+
+    textarea:active{
+      background-color:lavender;
+    }
+    textarea:focus{
+      background-color:lavender;
+    }
+
+
+    /* BUTTONS */
+    input[type=submit] {
+      color:white;
+      background-color: #9932cc;  
+      border: 3px solid;
+      border-color:#bd24f5 #6d0792 #6d0792 #bd24f5; /* top right bottom left */
+      padding: 10px 28px;
+      text-align: center;
+      font-family: ubuntu;
+    }
+    input[type=submit]:hover {
+      color:white;
+      background-color: #ae5bd7; 
+      border: 3px solid;
+      border-color:#c284e1 #9932cc #9932cc #c284e1; /* top right bottom left */
+      cursor:pointer;
+    }
+    input[type=submit]:active {
+      color:white;
+      background-color: #590099;  
+      border: 3px solid;
+      border-color:#3d1452 #a446d2 #a446d2 #3d1452; /* top right bottom left */
+    }
+
+    input[type=file]::file-selector-button {
+      margin-right: 20px;
+      border: solid 1px grey;
+      background: white;
+      padding: 7px 15px;
+      border-radius: 5px;
+      color: black;
+      cursor: pointer;
+      transition: background .2s ease-in-out;
+    }
+
+    input[type=file]::file-selector-button:hover {
+      background: lavender;
+    }
+
+
+    /*SELECTS*/
+    select{
+      font-family: monospace;
+      font-style: bold;
+    }
+    .nameSelect{
+      padding: 5px 10px;
+      border-radius:1rem;
+    }
+    .nameSelect:focus {
+      background-color: #f3f0f4;
+    }
+
+
+    /* Tooltip container */
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      border-bottom: 1px dotted black;
+    }
+
+    .tooltip .tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 150%;
+      left: 50%;
+      margin-left: -60px;
+    }
+
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+    }
+    .tooltip:hover .tooltiptext {
+      visibility: visible;
+    }
