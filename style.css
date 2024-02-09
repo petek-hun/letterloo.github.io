@@ -11,13 +11,13 @@
     h1{
       font-family: "trebuchet ms", tahoma, "sans serif";
       color: indigo;
-      font-size:2.3rem; 
-      line-height:2.5rem;
+      font-size:2.3em; 
+      line-height:2.5em;
       letter-spacing: 3px; 
       margin-left: 5%; 
       margin-right: 5%; 
       text-align: center;
-      text-shadow: 0.08rem 0.08rem 0.15rem RebeccaPurple, -0.08rem -0.08rem 0.15rem MediumPurple;
+      text-shadow: 0.08em 0.08em 0.15em RebeccaPurple, -0.08em -0.08em 0.15em MediumPurple;
       font-style: bold;
       -webkit-user-select: none; /* Safari */
       -ms-user-select: none; /* IE 10 and IE 11 */
