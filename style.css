@@ -154,3 +154,130 @@
     .tooltip:hover .tooltiptext {
       visibility: visible;
     }
+
+
+      /* The Modal (background) */
+      .modal {
+        display: none; /* Hidden by default */
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        padding-top: 100px; /* Location of the box */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+
+      /* Modal Content */
+      .modal-content {
+        background-color: lavender;
+        margin: auto 20% auto 20%;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 60%;
+      }
+
+
+
+      /* The Close Button */
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      /* soru yaz buttonu - YEŞİL*/
+      button#writeBtn{
+        color:#e6fff9;
+        background-color: #009B77;
+        border: 3px solid;
+        border-color: #00cc9c #004d3b    #004d3b    #00cc9c   ; /* top right bottom left */
+        padding: 10px 28px;
+        text-align: center;
+      }
+      button#writeBtn:hover {
+        color:#e6fff9;
+        background-color: #00cc9c;
+        border: 3px solid;
+        border-color:#00ffc3 #008062 #008062 #00ffc3; /* top right bottom left */
+        cursor:pointer;
+      }
+      button#writeBtn:active {
+        color:#e6fff9;
+        background-color: #004d3b;
+        border: 3px solid;
+        border-color:#003327 #009975 #009975 #003327; /* top right bottom left */
+      }
+
+      /* soru yaz buttonu - SARI*/
+      button#selectBtn{
+        color:#FEFEFE;
+        background-color: #FFA500;
+        border: 3px solid;
+        border-color:#ffc14d #cc8500 #cc8500 #ffc14d; /* top right bottom left */
+        padding: 10px 28px;
+        text-align: center;
+      }
+      button#selectBtn:hover {
+        color:white;
+        background-color: #ffaf1a;
+        border: 3px solid;
+        border-color:#ffc966 #e69500 #e69500 #ffc966; /* top right bottom left */
+        cursor:pointer;
+      }
+      button#selectBtn:active {
+        color:white;
+        background-color: #996300;
+        border: 3px solid;
+        border-color:#664200 #cc8500 #cc8500 #664200; /* top right bottom left */
+      }
+
+
+      /*SELECTS*/
+      .nameSelect{
+        padding: 5px 10px;
+        border-radius:1rem;
+      }
+      .nameSelect:focus {
+        background-color: #f3f0f4;
+      }
+      .questionSelect {
+        width: 94%;
+        overflow-x: scroll;
+        overflow-wrap: break-word !important;
+        white-space: normal !important;
+        text-overflow: ellipsis;
+        -webkit-appearance: none;
+        padding: 5px 10px;
+        border-radius:1rem;
+      }
+      .questionSelect:focus {
+        background-color: #f3f0f4;
+      }
+      option {
+        max-width: 100px;
+        overflow-x: scroll;
+        overflow-wrap: break-word !important;
+        white-space: normal !important;
+        text-overflow: ellipsis;
+        -webkit-appearance: none;
+      }
+
+      hr{
+        border: 1px solid black;
+      }
+      form{
+        margin-left: auto;
+        margin-right: auto;
+        max-width:500px;
+      }
