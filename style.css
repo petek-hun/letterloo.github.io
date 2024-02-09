@@ -66,6 +66,7 @@
       .questions{
         font-family: 'Alegreya', serif;
         font-style: normal;
+        text-align:left;
       }
 
       textarea{
