@@ -1,7 +1,7 @@
 
       body{
         background-color:#3F0061;
-        font-size:1.2em;
+        font-size:1em;
         font-family: sans-serif;
       }
       .centered{
@@ -10,15 +10,23 @@
       }
       div.page{
         background-color: #E1BEE7;
-        padding: 4%;
-        margin: 4% 10%;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        padding-right: auto;
+        padding-left: auto;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-right: auto;
+        margin-left: auto;
+        width: 600px;
       }
 
       /* breakpoint at 800px: */
-      @media screen and (max-width: 800px) {
+      @media screen and (max-width: 600px) {
         div.page {
           width: 100%; /* when the viewport is 800px or smaller */
           margin: 5% 0%;
+          padding: 10% auto;
         }
       }
 
