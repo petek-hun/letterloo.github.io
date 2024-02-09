@@ -1,6 +1,6 @@
     body{
         background-color:#3F0061;
-        font-size:1.5em;
+        font-size:1.4em;
     }
 
     div.page{
@@ -8,7 +8,7 @@
         padding: 4%;
         background-color: #E1BEE7;
         margin: 4% 10%;
-        max-width: 500px;
+        max-width: 600px;
     }
 
     /* breakpoint at 800px: */
