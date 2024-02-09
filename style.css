@@ -1,9 +1,10 @@
     body{
-      background-color:#3F0061;
+        background-color:#3F0061;
     }
     div.page{
-      background-color: #E1BEE7;
-      margin: 4% 10%;
+        padding: 4% 4%;
+        background-color: #E1BEE7;
+        margin: 4% 10%;
     }
     
     h1{
