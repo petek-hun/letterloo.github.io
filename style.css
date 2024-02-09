@@ -45,7 +45,7 @@
         user-select: none; /* Standard syntax */
       }
 
-      /* FIELDSET */
+      /*main body fieldset*/
       fieldset{
         background-color: hsl(259, 50%, 74%, 40%);
         border: 3px solid;
@@ -53,8 +53,16 @@
         max-width:100%;
         padding-left:3%;
         padding-right:3%;
+        margin-left: auto;
+        margin-right: auto;
+        max-width:500px;
       }
 
+      legend{
+        color: indigo;
+        font-family: 'Alegreya', serif;
+        font-style: italic;
+      }
       textarea{
         resize: vertical; 
         width: 99%;
@@ -64,11 +72,6 @@
         -webkit-user-select: none; /* Safari */
         -ms-user-select: none; /* IE 10 and IE 11 */
         user-select: none; /* Standard syntax */
-      }
-      legend{
-        font-family: 'Alegreya', serif;
-        font-style:italic;
-        color: indigo;
       }
 
       em{
