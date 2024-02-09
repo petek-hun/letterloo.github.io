@@ -18,11 +18,11 @@
         margin-bottom: 10%;
         margin-right: auto;
         margin-left: auto;
-        width: 600px;
+        width: 800px;
       }
 
       /* breakpoint at 800px: */
-      @media screen and (max-width: 600px) {
+      @media screen and (max-width: 800px) {
         div.page {
           width: 100%; /* when the viewport is 800px or smaller */
           margin: 5% 0%;
