@@ -103,7 +103,7 @@
 
 
       /* BUTTONS */
-      input[type=submit] {
+      input[type=button] {
         color:white;
         background-color: #9932cc;  
         border: 3px solid;
@@ -113,14 +113,14 @@
         font-family: Play, Helvetica;
         font-weight: 400;
       }
-      input[type=submit]:hover {
+      input[type=button]:hover {
         color:white;
         background-color: #ae5bd7; 
         border: 3px solid;
         border-color:#c284e1 #9932cc #9932cc #c284e1; /* top right bottom left */
         cursor:pointer;
       }
-      input[type=submit]:active {
+      input[type=button]:active {
         color:white;
         background-color: #590099;  
         border: 3px solid;
