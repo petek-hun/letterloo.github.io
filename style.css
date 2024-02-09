@@ -63,6 +63,11 @@
         font-family: 'Alegreya', serif;
         font-style: italic;
       }
+      .questions{
+        font-family: 'Alegreya', serif;
+        font-style: normal;
+      }
+
       textarea{
         resize: vertical; 
         width: 99%;
