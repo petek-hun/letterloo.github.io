@@ -1,4 +1,11 @@
-
+    body{
+      background-color:#3F0061;
+    }
+    div.page{
+      background-color: #E1BEE7;
+      margin: 4% 10%;
+    }
+    
     h1{
       font-family: "trebuchet ms", tahoma, "sans serif";
       color: indigo;
