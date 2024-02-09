@@ -232,6 +232,7 @@
 
       /* soru yaz buttonu - SARI*/
       button#selectBtn{
+      font-family:'Play', "sans-serif";
         color:#FEFEFE;
         background-color: #FFA500;
         border: 3px solid;
