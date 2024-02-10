@@ -1,330 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400;1,600&amp;family=Play:wght@400;700&amp;display=swap');
 
-      body{
-        background-color:#3F0061;
-        font-size:1em;
-        font-family: sans-serif;
-      }
-      .centered{
-        width:100%;
-        text-align:center;
-      }
-      div.page{
-        background-color: #E1BEE7;
-        padding-top: 10%;
-        padding-bottom: 10%;
-        padding-right: auto;
-        padding-left: auto;
-        margin-top: 10%;
-        margin-bottom: 10%;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 750px;
-      }
+body{
+  background-color:#3F0061;
+  font-size:1em;
+  font-family: sans-serif;
+}
+.centered{
+  width:100%;
+  text-align:center;
+}
+div.page{
+  background-color: #E1BEE7;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-right: auto;
+  padding-left: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 750px;
+}
 
-      /* breakpoint at 800px: */
-      @media screen and (max-width: 768px) {
-        div.page {
-          width: 100%; /* when the viewport is 800px or smaller */
-          margin: 5% 0%;
-          padding: 10% auto;
-        }
-      }
+/* breakpoint at 800px: */
+@media screen and (max-width: 768px) {
+  div.page {
+    width: 100%; /* when the viewport is 800px or smaller */
+    margin: 5% 0%;
+    padding: 10% auto;
+  }
+}
 
-      h1{
-        font-family: "trebuchet ms", tahoma, "sans serif";
-        color: indigo;
-        font-size:2.3em; 
-        letter-spacing: 3px; 
-        margin-left: 5%; 
-        margin-right: 5%; 
-        text-align: center;
-        text-shadow: 0.08em 0.08em 0.15em RebeccaPurple, -0.08em -0.08em 0.15em MediumPurple;
-        font-style: bold;
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
-      }
+h1{
+  font-family: "trebuchet ms", tahoma, "sans serif";
+  color: indigo;
+  font-size:2.3em; 
+  letter-spacing: 3px; 
+  margin-left: 5%; 
+  margin-right: 5%; 
+  text-align: center;
+  text-shadow: 0.08em 0.08em 0.15em RebeccaPurple, -0.08em -0.08em 0.15em MediumPurple;
+  font-style: bold;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
 
-      /*main body fieldset*/
-      fieldset{
-        background-color: hsl(259, 50%, 74%, 40%);
-        border: 3px solid;
-        border-color: #6d0792 #bd24f5 #bd24f5 #6d0792;
-        width: 90%;
-        padding-left:3%;
-        padding-right:3%;
-        margin-left: auto;
-        margin-right: auto;
-        max-width:500px;
-        display:none;
-      }
+/*main body fieldset*/
+fieldset{
+  background-color: hsl(259, 50%, 74%, 40%);
+  border: 3px solid;
+  border-color: #6d0792 #bd24f5 #bd24f5 #6d0792;
+  width: 90%;
+  padding-left:3%;
+  padding-right:3%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:500px;
+  display:none;
+}
 
-      legend{
-        color: indigo;
-        font-family: 'Alegreya', serif;
-        font-style: italic;
-      }
-      .questions{
-        font-family: 'Alegreya', serif;
-        font-style: normal;
-        text-align:left;
-      }
+legend{
+  color: indigo;
+  font-family: 'Alegreya', serif;
+  font-style: italic;
+}
+.questions{
+  font-family: 'Alegreya', serif;
+  font-style: normal;
+  text-align:left;
+}
 
-      textarea{
-        resize: vertical; 
-        width: 99%;
-        border-radius: 5px;
-      }
-      label{
-        -webkit-user-select: none; /* Safari */
-        -ms-user-select: none; /* IE 10 and IE 11 */
-        user-select: none; /* Standard syntax */
-      }
+textarea{
+  resize: vertical; 
+  width: 99%;
+  border-radius: 5px;
+}
+label{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
 
-      em{
-        font-style: italic;
-        font-family: 'Alegreya', serif;
-      }
+em{
+  font-style: italic;
+  font-family: 'Alegreya', serif;
+}
 
-      b{
-        font-style: bold normal;
-        font-family: 'Alegreya', serif;
-      }
+b{
+  font-style: bold normal;
+  font-family: 'Alegreya', serif;
+}
 
-      .sorular{
-        line-height: 1.2rem;
-        font-family: 'Alegreya', serif;
-      }
+.sorular{
+  line-height: 1.2rem;
+  font-family: 'Alegreya', serif;
+}
 
-      textarea:active{
-        background-color:lavender;
-      }
-      textarea:focus{
-        background-color:lavender;
-      }
-
-
-      /* BUTTONS */
-      input[type=button] {
-        color:white;
-        background-color: #9932cc;  
-        border: 3px solid;
-        border-color:#bd24f5 #6d0792 #6d0792 #bd24f5; /* top right bottom left */
-        padding: 10px 28px;
-        text-align: center;
-        font-family: Play, Helvetica;
-        font-weight: 700;
-      }
-      input[type=button]:hover {
-        color:white;
-        background-color: #ae5bd7; 
-        border: 3px solid;
-        border-color:#c284e1 #9932cc #9932cc #c284e1; /* top right bottom left */
-        cursor:pointer;
-      }
-      input[type=button]:active {
-        color:white;
-        background-color: #590099;  
-        border: 3px solid;
-        border-color:#3d1452 #a446d2 #a446d2 #3d1452; /* top right bottom left */
-      }
-
-      input[type=file]::file-selector-button {
-        margin-right: 20px;
-        border: solid 1px grey;
-        background: white;
-        padding: 7px 15px;
-        border-radius: 5px;
-        color: black;
-        cursor: pointer;
-        transition: background .2s ease-in-out;
-      }
-
-      input[type=file]::file-selector-button:hover {
-        background: lavender;
-      }
-      /* soru yaz buttonu - YEŞİL*/
-      button#writeBtn{
-        font-family: Play, Helvetica;
-        font-weight: 700;
-        color:#e6fff9;
-        background-color: #009B77;
-        border: 3px solid;
-        border-color: #00cc9c #004d3b    #004d3b    #00cc9c   ; /* top right bottom left */
-        padding: 10px 28px;
-        text-align: center;
-      }
-      button#writeBtn:hover {
-        color:#e6fff9;
-        background-color: #00cc9c;
-        border: 3px solid;
-        border-color:#00ffc3 #008062 #008062 #00ffc3; /* top right bottom left */
-        cursor:pointer;
-      }
-      button#writeBtn:active {
-        color:#e6fff9;
-        background-color: #004d3b;
-        border: 3px solid;
-        border-color:#003327 #009975 #009975 #003327; /* top right bottom left */
-      }
-
-      /* soru yaz buttonu - SARI*/
-      button#selectBtn{
-        font-family: Play, Helvetica;
-        font-weight: 700;
-        color:#FEFEFE;
-        background-color: #FFA500;
-        border: 3px solid;
-        border-color:#ffc14d #cc8500 #cc8500 #ffc14d; /* top right bottom left */
-        padding: 10px 28px;
-        text-align: center;
-      }
-      button#selectBtn:hover {
-        color:white;
-        background-color: #ffaf1a;
-        border: 3px solid;
-        border-color:#ffc966 #e69500 #e69500 #ffc966; /* top right bottom left */
-        cursor:pointer;
-      }
-      button#selectBtn:active {
-        color:white;
-        background-color: #996300;
-        border: 3px solid;
-        border-color:#664200 #cc8500 #cc8500 #664200; /* top right bottom left */
-      }
+textarea:active{
+  background-color:lavender;
+}
+textarea:focus{
+  background-color:lavender;
+}
 
 
-      /*SELECTS*/
-      select{
-        font-family: monospace;
-        font-style: bold;
-        font-size:1.2em;
-      }
-      .nameSelect{
-        padding: 5px 10px;
-        border-radius:1rem;
-      }
-      .nameSelect:focus {
-        background-color: #f3f0f4;
-      }
+/* BUTTONS */
+input[type=button] {
+  color:white;
+  background-color: #9932cc;  
+  border: 3px solid;
+  border-color:#bd24f5 #6d0792 #6d0792 #bd24f5; /* top right bottom left */
+  padding: 10px 28px;
+  text-align: center;
+  font-family: Play, Helvetica;
+  font-weight: 700;
+}
+input[type=button]:hover {
+  color:white;
+  background-color: #ae5bd7; 
+  border: 3px solid;
+  border-color:#c284e1 #9932cc #9932cc #c284e1; /* top right bottom left */
+  cursor:pointer;
+}
+input[type=button]:active {
+  color:white;
+  background-color: #590099;  
+  border: 3px solid;
+  border-color:#3d1452 #a446d2 #a446d2 #3d1452; /* top right bottom left */
+}
+
+input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: solid 1px grey;
+  background: white;
+  padding: 7px 15px;
+  border-radius: 5px;
+  color: black;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: lavender;
+}
+/* soru yaz buttonu - YEŞİL*/
+button#writeBtn{
+  font-family: Play, Helvetica;
+  font-weight: 700;
+  color:#e6fff9;
+  background-color: #009B77;
+  border: 3px solid;
+  border-color: #00cc9c #004d3b    #004d3b    #00cc9c   ; /* top right bottom left */
+  padding: 10px 28px;
+  text-align: center;
+}
+button#writeBtn:hover {
+  color:#e6fff9;
+  background-color: #00cc9c;
+  border: 3px solid;
+  border-color:#00ffc3 #008062 #008062 #00ffc3; /* top right bottom left */
+  cursor:pointer;
+}
+button#writeBtn:active {
+  color:#e6fff9;
+  background-color: #004d3b;
+  border: 3px solid;
+  border-color:#003327 #009975 #009975 #003327; /* top right bottom left */
+}
+
+/* soru yaz buttonu - SARI*/
+button#selectBtn{
+  font-family: Play, Helvetica;
+  font-weight: 700;
+  color:#FEFEFE;
+  background-color: #FFA500;
+  border: 3px solid;
+  border-color:#ffc14d #cc8500 #cc8500 #ffc14d; /* top right bottom left */
+  padding: 10px 28px;
+  text-align: center;
+}
+button#selectBtn:hover {
+  color:white;
+  background-color: #ffaf1a;
+  border: 3px solid;
+  border-color:#ffc966 #e69500 #e69500 #ffc966; /* top right bottom left */
+  cursor:pointer;
+}
+button#selectBtn:active {
+  color:white;
+  background-color: #996300;
+  border: 3px solid;
+  border-color:#664200 #cc8500 #cc8500 #664200; /* top right bottom left */
+}
 
 
-      /* Tooltip container */
-
-      .tooltip {
-        position: relative;
-        display: inline-block;
-        border-bottom: 1px dotted black;
-      }
-
-      .tooltip .tooltiptext {
-        visibility: hidden;
-        width: 120px;
-        background-color: black;
-        color: #fff;
-        text-align: center;
-        border-radius: 6px;
-        padding: 5px 0;
-        position: absolute;
-        z-index: 1;
-        bottom: 150%;
-        left: 50%;
-        margin-left: -60px;
-      }
-
-      .tooltip .tooltiptext::after {
-        content: "";
-        position: absolute;
-        top: 100%;
-        left: 50%;
-        margin-left: -5px;
-        border-width: 5px;
-        border-style: solid;
-        border-color: black transparent transparent transparent;
-      }
-      .tooltip:hover .tooltiptext {
-        visibility: visible;
-      }
+/*SELECTS*/
+select{
+  font-family: monospace;
+  font-style: bold;
+  font-size:1.2em;
+}
+.nameSelect{
+  padding: 5px 10px;
+  border-radius:1rem;
+}
+.nameSelect:focus {
+  background-color: #f3f0f4;
+}
 
 
-      /* The Modal (background) */
-      .modal {
-        text-align:left;
-        display: none; /* Hidden by default */
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 100px; /* Location of the box */
-        left: 0;
-        top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-      }
+/* Tooltip container */
 
-      /* Modal Content */
-      .modal-content {
-        background-color: lavender;
-        margin: auto 20% auto 20%;
-        padding: 20px;
-        border: 1px solid #888;
-        width: 60%;
-      }
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
 
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 150%;
+  left: 50%;
+  margin-left: -60px;
+}
 
-
-      /* The Close Button */
-      .close {
-        color: #aaaaaa;
-        float: right;
-        font-size: 28px;
-        font-weight: bold;
-      }
-
-      .close:hover,
-      .close:focus {
-        color: #000;
-        text-decoration: none;
-        cursor: pointer;
-      }
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
 
 
-      /*SELECTS*/
-      .nameSelect{
-        padding: 5px 10px;
-        border-radius:1rem;
-      }
-      .nameSelect:focus {
-        background-color: #f3f0f4;
-      }
-      .questionSelect {
-        width: 94%;
-        overflow-x: scroll;
-        overflow-wrap: break-word !important;
-        white-space: normal !important;
-        text-overflow: ellipsis;
-        -webkit-appearance: none;
-        padding: 5px 10px;
-        border-radius:1rem;
-      }
-      .questionSelect:focus {
-        background-color: #f3f0f4;
-      }
-      option {
-        max-width: 100px;
-        overflow-x: scroll;
-        overflow-wrap: break-word !important;
-        white-space: normal !important;
-        text-overflow: ellipsis;
-        -webkit-appearance: none;
-      }
+/* The Modal (background) */
+.modal {
+  text-align:left;
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
 
-      hr{
-        border: 1px solid black;
-      }
-      form{
-        margin-left: auto;
-        margin-right: auto;
-        max-width:500px;
-      }
+/* Modal Content */
+.modal-content {
+  background-color: lavender;
+  margin: auto 20% auto 20%;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/*SELECTS*/
+.nameSelect{
+  padding: 5px 10px;
+  border-radius:1rem;
+}
+.nameSelect:focus {
+  background-color: #f3f0f4;
+}
+.questionSelect {
+  width: 94%;
+  overflow-x: scroll;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;
+  padding: 5px 10px;
+  border-radius:1rem;
+}
+.questionSelect:focus {
+  background-color: #f3f0f4;
+}
+option {
+  max-width: 100px;
+  overflow-x: scroll;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  text-overflow: ellipsis;
+  -webkit-appearance: none;
+}
+
+hr{
+  border: 1px solid black;
+}
+form{
+  margin-left: auto;
+  margin-right: auto;
+  max-width:500px;
+}
