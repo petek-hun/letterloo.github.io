@@ -198,6 +198,7 @@
       select{
         font-family: monospace;
         font-style: bold;
+        font-size:1.2em;
       }
       .nameSelect{
         padding: 5px 10px;
