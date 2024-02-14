@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400;1,600&amp;family=Play:wght@400;700&amp;display=swap');
-
+      @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400;1,600&amp;family=Play:wght@400;700&amp;display=swap');
 body{
   background-color:#3F0061;
   font-size:1em;
@@ -69,6 +68,23 @@ legend{
   font-family: 'Alegreya', serif;
   font-style: normal;
   text-align:left;
+}
+
+.answer{
+  font-family: 'Alegreya', serif;
+  font-size: 1.2em;
+  font-style: normal;
+  margin: 1%;
+}
+span.question{
+  font-family: 'Alegreya', serif;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.1em;
+}
+.header-container{
+  max-width: 550px;
+  text-align:center;
 }
 
 textarea{
@@ -328,4 +344,14 @@ form{
   margin-left: auto;
   margin-right: auto;
   max-width:500px;
+}
+
+
+hr.black{
+  border: 1px solid black;
+}
+hr.white{
+  border: 3px solid #E1BEE700;
+  margin: 0px auto;
+  max-width:530px;
 }
