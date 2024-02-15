@@ -129,7 +129,7 @@ input[type=button] {
   border-color:#bd24f5 #6d0792 #6d0792 #bd24f5; /* top right bottom left */
   padding: 10px 28px;
   text-align: center;
-  font-family: "Play", Helvetica;
+  font-family: "play", Helvetica;
   font-weight: 700;
 }
 input[type=button]:hover {
@@ -162,7 +162,7 @@ input[type=file]::file-selector-button:hover {
 }
 /* soru yaz buttonu - YEŞİL*/
 button#writeBtn{
-  font-family: "Play", Helvetica;
+  font-family: "play", Helvetica;
   font-weight: 700;
   color:#e6fff9;
   background-color: #009B77;
@@ -187,7 +187,7 @@ button#writeBtn:active {
 
 /* soru yaz buttonu - SARI*/
 button#selectBtn{
-  font-family: "Play", Helvetica;
+  font-family: "play", Helvetica;
   font-weight: 700;
   color:#FEFEFE;
   background-color: #FFA500;
