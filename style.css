@@ -28,6 +28,13 @@ div.page{
     margin: 5% 0%;
     padding: 10% auto;
   }
+  .modal-content {
+  background-color: lavender;
+  margin: auto auto auto auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 }
 
 h1{
