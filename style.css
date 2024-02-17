@@ -29,12 +29,11 @@ div.page{
     padding: 10% auto;
   }
   .modal-content {
-  background-color: lavender;
-  margin: auto auto auto auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
-}
+    background-color: lavender;
+    margin: auto auto auto auto;
+    padding: 20px;
+    width: 80%;
+  }
 }
 
 h1{
@@ -292,7 +291,6 @@ select{
   background-color: lavender;
   margin: auto 20% auto 20%;
   padding: 20px;
-  border: 1px solid #888;
   width: 60%;
 }
 
