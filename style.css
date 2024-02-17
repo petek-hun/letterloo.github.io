@@ -33,6 +33,7 @@ div.page{
     margin: auto;
     padding: 20px;
     width: 80%;
+    max-width: 500px;
   }
 }
 
