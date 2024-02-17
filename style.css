@@ -272,7 +272,7 @@ select{
 
 /* The Modal (background) */
 .modal {
-  text-align:left;
+  text-align:center;
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -288,6 +288,7 @@ select{
 
 /* Modal Content */
 .modal-content {
+  text-align: left;
   background-color: lavender;
   margin: auto 20% auto 20%;
   padding: 20px;
