@@ -30,7 +30,7 @@ div.page{
   }
   .modal-content {
     background-color: lavender;
-    margin: auto auto auto auto;
+    margin: auto;
     padding: 20px;
     width: 80%;
   }
@@ -290,9 +290,9 @@ select{
 .modal-content {
   text-align: left;
   background-color: lavender;
-  margin: auto 20% auto 20%;
+  margin: auto;
   padding: 20px;
-  width: 60%;
+  width: 80%;
 }
 
 
